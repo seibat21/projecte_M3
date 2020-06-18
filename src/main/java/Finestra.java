@@ -48,7 +48,7 @@ public class Finestra extends JFrame {
     private void colocarEtiquetes() {
         JLabel etiquetaTitol = new JLabel("Sistema de reserves", SwingConstants.CENTER);
         etiquetaTitol.setBounds(0, 0, 500, 30);
-        etiquetaTitol.setBackground(Color.CYAN);
+        //etiquetaTitol.setBackground(Color.CYAN);
         etiquetaTitol.setOpaque(true);
         etiquetaTitol.setFont(new Font("arial", Font.BOLD, 20));
         panell.add(etiquetaTitol);
@@ -56,56 +56,56 @@ public class Finestra extends JFrame {
         JLabel etiquetaNom = new JLabel("Nom");
         etiquetaNom.setBounds(30, 50, 90, 25);
         etiquetaNom.setFont(new Font("arial", Font.BOLD, 18));
-        etiquetaNom.setBackground(Color.CYAN);
+        //etiquetaNom.setBackground(Color.CYAN);
         etiquetaNom.setOpaque(true);
         panell.add(etiquetaNom);
 
         JLabel etiquetaCognom = new JLabel("Cognom");
         etiquetaCognom.setBounds(30, 80, 90, 25);
         etiquetaCognom.setFont(new Font("arial", Font.BOLD, 18));
-        etiquetaCognom.setBackground(Color.CYAN);
+        //etiquetaCognom.setBackground(Color.CYAN);
         etiquetaCognom.setOpaque(true);
         panell.add(etiquetaCognom);
 
         JLabel etiquetaDni = new JLabel("DNI");
         etiquetaDni.setBounds(30, 110, 90, 25);
         etiquetaDni.setFont(new Font("arial", Font.BOLD, 18));
-        etiquetaDni.setBackground(Color.CYAN);
+        //etiquetaDni.setBackground(Color.CYAN);
         etiquetaDni.setOpaque(true);
         panell.add(etiquetaDni);
 
         JLabel etiquetaComentari = new JLabel("Comentaris extres", SwingConstants.CENTER);
         etiquetaComentari.setBounds(30, 170, 200, 25);
         etiquetaComentari.setFont(new Font("arial", Font.BOLD, 18));
-        etiquetaComentari.setBackground(Color.CYAN);
+        //etiquetaComentari.setBackground(Color.CYAN);
         etiquetaComentari.setOpaque(true);
         panell.add(etiquetaComentari);
 
         JLabel etiquetaHorari = new JLabel("Horari preferit", SwingConstants.CENTER);
         etiquetaHorari.setBounds(260, 170, 150, 25);
         etiquetaHorari.setFont(new Font("arial", Font.BOLD, 18));
-        etiquetaHorari.setBackground(Color.CYAN);
+        //etiquetaHorari.setBackground(Color.CYAN);
         etiquetaHorari.setOpaque(true);
         panell.add(etiquetaHorari);
 
         JLabel etiquetaDia = new JLabel("Dia");
         etiquetaDia.setBounds(260, 50, 90, 25);
         etiquetaDia.setFont(new Font("arial", Font.BOLD, 18));
-        etiquetaDia.setBackground(Color.CYAN);
+        //etiquetaDia.setBackground(Color.CYAN);
         etiquetaDia.setOpaque(true);
         panell.add(etiquetaDia);
 
         JLabel etiquetaMes = new JLabel("Mes");
         etiquetaMes.setBounds(260, 80, 90, 25);
         etiquetaMes.setFont(new Font("arial", Font.BOLD, 18));
-        etiquetaMes.setBackground(Color.CYAN);
+        //etiquetaMes.setBackground(Color.CYAN);
         etiquetaMes.setOpaque(true);
         panell.add(etiquetaMes);
 
         JLabel etiquetaAny = new JLabel("Any");
         etiquetaAny.setBounds(260, 110, 90, 25);
         etiquetaAny.setFont(new Font("arial", Font.BOLD, 18));
-        etiquetaAny.setBackground(Color.CYAN);
+        //etiquetaAny.setBackground(Color.CYAN);
         etiquetaAny.setOpaque(true);
         panell.add(etiquetaAny);
 
